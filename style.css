@@ -1,0 +1,1729 @@
+body {
+    margin: 0;
+}
+
+.navbar_container {
+    display: flex;
+}
+
+.navbar_container h3{
+    color: #04AA6D;
+    margin: 12px;
+}
+
+
+.navbar_container .navbar_container_list{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    
+}
+.navbar_container .navbar_container_list a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+  
+    padding: 12px;
+    
+}
+
+.navbar_container .navbar_container_list a:hover {
+    color: white;
+    background-color: #04AA6D;
+    
+}
+.navbar_container .navbar_container_listSecond{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    margin-left: 70px;
+    
+}
+.navbar_container .navbar_container_listSecond a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    padding: 12px;
+    
+}
+.navbar_container .navbar_container_listSecond a:hover{
+    background-color: rgb(240, 239, 239);
+    border-radius: 34px;
+}
+
+.navbar_search {
+    width: 215px;
+    height: 34px;
+    padding: 4px;
+    margin: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 34px;
+}
+
+.navbar_search input {
+    border: none;
+    padding-left: 4px;
+    margin-left: 11px;
+}
+.navbar_search button {
+    border: none;
+    font-size: 18px;
+    background-color: white;
+}
+.navbar_sigtnIn {
+    padding: 18px;
+    margin-left: 45px;
+
+}
+.navbar_sigtnIn button{
+    width: 120px;
+    border-radius: 32px;
+    font-size: 16px;
+    padding: 9px;
+}
+#btn1{
+    border: none;
+    color: white;
+    background-color: #04AA6D;
+}
+#btn1:hover{
+    color: white;
+    background-color: #059862;
+}
+#btn2{
+    border: none;
+    color: black;
+    background-color: #caf7e7;
+}
+#btn2:hover{
+    color: white;
+    background-color: #059862;
+}
+
+.navbar_second_container{
+    
+    background-color: #282A35;
+    display: flex;
+
+}
+.navbar_second_container a{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+.navbar_second_container a:hover{
+    background-color: black;
+}
+
+.home {
+    background-image: url("Images/background_in_space.webp");
+    height: 600px;
+    width: 100%;
+}
+
+.home_page {
+    position: absolute;
+    top: 190px;
+    height: 345px;
+    width: 100%;
+
+}
+
+.space {
+    position: absolute;
+    top: 530px;
+    right: 150px;
+    height: 160px;
+    width: 150px;
+    background-image: url("Images/lynx_in_space.webp");
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center center;
+    animation: space 5s ease-in-out 0s infinite alternate ;
+
+}
+
+@keyframes space {
+    0% {
+        left: 50px;
+        top: 130px;
+    }
+
+    25% {
+        left: 1300px;
+        top: 130px;
+    }
+
+    50% {
+        left: 1300px;
+        top: 520px;
+    }
+
+    75% {
+        left: 50px;
+        top: 520px;
+    }
+
+    100% {
+        left: 50px;
+        top: 130px;
+    }
+}
+
+.home_page_content h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 0;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.home_page_content p {
+    text-align: center;
+    color: #FFF4A3;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Search {
+    margin-top: 40px;
+}
+
+form.Search input {
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    width: 400px;
+    padding: 11px;
+    font-size: 16px;
+    font-weight: 600;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form {
+    position: absolute;
+    left: 516px;
+    top: 186px;
+}
+
+
+
+form.Search button {
+    border-radius: 25px;
+    width: 20%;
+    padding: 10px;
+    background: #04AA6D;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #04AA6D;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    left: 400px;
+    top: 1px;
+}
+
+form.Search button:hover {
+    background: #059862;
+    color: white;
+}
+
+.To_begin {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: absolute;
+    left: 600px;
+    top: 270px;
+}
+
+.To_begin a {
+    color: white;
+}
+
+.To_begin a:hover {
+    color: #FFF4A3;
+}
+
+/* HTML Page */
+.html_page {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    background-color: #D9EEE1;
+}
+
+.about_html {
+    position: absolute;
+    left: 325px;
+    height: 500px;
+    width: 400px;
+}
+
+.about_html h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_html p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tags {
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    left: 82px;
+}
+
+.about_html a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 32px;
+    width: 200px;
+}
+
+.learn_html {
+    color: white;
+    background-color: #04AA6D;
+    font-weight: 600;
+}
+
+.learn_html:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.video_tutorial {
+    color: black;
+    background-color: #FFF4A3;
+    font-weight: 600;
+}
+
+.video_tutorial:hover {
+    color: black;
+    background-color: #f8eb8a;
+}
+
+.reference {
+    color: white;
+    background-color: #282A35;
+    font-weight: 600;
+}
+
+.reference:hover {
+    color: white;
+    background-color: black;
+}
+
+.get_cetified {
+    color: black;
+    background-color: #FFC6C6;
+    font-weight: 600;
+}
+
+.get_cetified:hover {
+    color: black;
+    background-color: #faabab;
+}
+
+.html_example {
+    width: 410px;
+    height: 518px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.html_example h1 {
+    padding-left: 26px;
+}
+
+.example_code_html {
+    color: black;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 2px 12px;
+    width: 320px;
+    margin: auto;
+}
+
+.try_button {
+    color: white;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 26px;
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.try_button:hover {
+    color: white;
+    background-color: #059862;
+
+}
+
+/* CSS Page */
+.css_page {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    background-color: #FFF4A3;
+}
+
+.about_css {
+    position: absolute;
+    left: 325px;
+    height: 500px;
+    width: 400px;
+}
+
+.about_css h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_css p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about_css a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 32px;
+    width: 200px;
+}
+
+.learn_css {
+    color: white;
+    background-color: #04AA6D;
+    font-weight: 600;
+}
+
+.learn_css:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.css_example {
+    width: 410px;
+    height: 518px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.css_example h1 {
+    padding-left: 26px;
+}
+
+.example_code_css {
+    color: black;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 2px 12px;
+    width: 320px;
+    margin: auto;
+}
+
+/* JavaScript Page */
+
+.js_page {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    background-color: #282A35;
+}
+
+.about_js {
+    position: absolute;
+    left: 325px;
+    height: 500px;
+    width: 400px;
+}
+
+.about_js h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_js p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.about_js a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 32px;
+    width: 200px;
+}
+
+.js_reference {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+
+}
+
+.js_reference:hover {
+    color: black;
+    background-color: rgb(203, 202, 202);
+}
+
+.learn_js {
+    color: white;
+    background-color: #04AA6D;
+    font-weight: 600;
+}
+
+.learn_js:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.js_example {
+    width: 410px;
+    height: 465px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.js_example h1 {
+    padding-left: 26px;
+}
+
+.example_code_js {
+    color: black;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 2px 12px;
+    width: 320px;
+    margin: auto;
+}
+
+/* Python CSS */
+.python_page {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: #F3ECEA;
+}
+
+.about_python {
+    position: absolute;
+    left: 325px;
+    height: 500px;
+    width: 400px;
+}
+
+.about_python h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_python p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tags {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 82px;
+}
+
+.about_python a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 32px;
+    width: 200px;
+}
+
+.learn_python {
+    color: white;
+    background-color: #04AA6D;
+    font-weight: 600;
+}
+
+.learn_python:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.python_example {
+    width: 410px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.python_example h1 {
+    padding-left: 26px;
+}
+
+.example_code_python {
+    color: black;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 2px 12px;
+    width: 320px;
+    height: 240px;
+    margin: auto;
+}
+
+/* SQL CSS*/
+
+.sql_page {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background-color: #96D4D4;
+}
+
+.about_sql {
+    position: absolute;
+    left: 325px;
+    height: 500px;
+    width: 400px;
+}
+
+.about_sql h1 {
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_sql p {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about_sql a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 32px;
+    width: 200px;
+}
+
+.learn_sql {
+    color: white;
+    background-color: #04AA6D;
+    font-weight: 600;
+}
+
+.learn_sql:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.sql_example {
+    width: 410px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.sql_example h1 {
+    padding-left: 26px;
+}
+
+.example_code_sql {
+    color: black;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 2px 12px;
+    width: 320px;
+    height: 240px;
+    margin: auto;
+}
+
+.ptag {
+    color: red !important;
+}
+
+.core_languages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #282A35 !important;
+}
+
+.core_languages h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.core_languages h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.core_languages a {
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px;
+    margin: auto;
+    border-radius: 25px;
+    display: block;
+    width: 200px;
+}
+
+.core_languages a:hover {
+    background-color: black;
+}
+
+.first_core_language,
+.second_core_language,
+.third_core_language,
+.fourth_core_language {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.firstportion_core_language,
+.secondportion_core_language,
+.thirdportion_core_language,
+.fourthportion_core_language {
+    border-radius: 5px;
+    color: black;
+    padding: 47px;
+    width: 33%;
+    margin: 44px;
+    text-align: center;
+}
+
+#firstportion_core_language_first {
+    background-color: #FFC0C7;
+}
+
+#firstportion_core_language_second {
+    background-color: #FFF4A3;
+}
+
+
+.firstportion_core_language h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+#secondportion_core_language_first {
+    background-color: #F3ECEA;
+}
+
+#secondportion_core_language_second {
+    background-color: #D9EEE1;
+}
+
+#thirdportion_core_language_first {
+    background-color: #96D4D4;
+}
+
+#thirdportion_core_language_second {
+    background-color: #E7E9EB;
+}
+
+#fourthportion_core_language_first {
+    background-color: #FFC0C7;
+}
+
+#fourthtportion_core_language_second {
+    background-color: #FFF4A3;
+}
+
+.fifth_core_language {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fifthportion_core_language {
+    border-radius: 5px;
+    color: black;
+    padding: 40px;
+    width: 15%;
+    margin: 44px;
+    text-align: center;
+}
+
+#fifthportion_core_language_first {
+    background-color: #F3ECEA;
+}
+
+#fifthportion_core_language_second {
+    background-color: #D9EEE1;
+}
+
+#fifthportion_core_language_third {
+    background-color: #96D4D4;
+}
+
+#fifthportion_core_language_fourth {
+    background-color: #FFC0C7;
+}
+
+#sixthportion_core_language_first {
+    background-color: #FFF4A3;
+}
+
+#sixthportion_core_language_second {
+    background-color: #F3ECEA;
+}
+
+#sixthportion_core_language_third {
+    background-color: #D9EEE1;
+}
+
+#sixthportion_core_language_fourth {
+    background-color: #96D4D4;
+}
+
+#seventhportion_core_language_first {
+    background-color: #FFC0C7;
+}
+
+#seventhportion_core_language_second {
+    background-color: #FFF4A3;
+}
+
+#seventhportion_core_language_third {
+    background-color: #F3ECEA;
+}
+
+#seventhportion_core_language_fourth {
+    background-color: #D9EEE1;
+}
+
+#eightportion_core_language_first {
+    background-color: #96D4D4;
+}
+
+#eightportion_core_language_second {
+    background-color: #FFC0C7;
+}
+
+#eightportion_core_language_third {
+    background-color: #FFF4A3;
+}
+
+#eightportion_core_language_fourth {
+    background-color: #F3ECEA;
+}
+
+.ninth_core_language,
+.tenth_core_language {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.ninthportion_core_language,
+.tenthportion_core_language {
+    border-radius: 5px;
+    ;
+    color: black;
+    padding: 47px;
+    width: 45%;
+    margin: 44px;
+    text-align: center;
+}
+
+#ninthportion_core_language_first {
+    background-color: #FFF4A3;
+}
+
+#ninthportion_core_language_second {
+    background-color: #F3ECEA;
+}
+
+#tenthportion_core_language_first {
+    background-color: #96D4D4;
+}
+
+#tenthtportion_core_language_second {
+    background-color: #D9EEE1;
+}
+
+.code_editor {
+    color: white;
+    background-color: #282A35 !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 800px;
+}
+
+.code_editor .code_editor_firstPortion {
+    text-align: center;
+
+}
+
+.code_editor .code_editor_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.code_editor .code_editor_firstPortion h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.code_editor .code_editor_secondPortion {
+    position: absolute;
+    top: 272px;
+    left: 320px;
+    border: 1px solid #282A35;
+    border-radius: 8px;
+}
+
+.code_editor .code_editor_secondPortion .color_text {
+    background-color: white;
+    width: 98%;
+    display: flex;
+    gap: 150px;
+    padding: 10px;
+
+}
+
+
+.code_editor .code_editor_secondPortion .red_color {
+    color: red;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.code_editor .code_editor_secondPortion .yellow_color {
+    color: yellow;
+    background-color: yellow;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.code_editor .code_editor_secondPortion .green_color {
+    color: green;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.code_editor .code_editor_secondPortion input {
+    width: 606px;
+    border: 1px solid none;
+}
+
+.code_editor .code_editor_secondPortion .buttonsss {
+
+    background-color: rgb(209, 209, 209);
+
+
+}
+
+.code_editor .code_editor_secondPortion button {
+    color: black;
+    background-color: white;
+    height: 40px;
+    padding: 12px;
+    float: left;
+    border: none;
+    font-weight: 700;
+}
+
+.code_editor .code_editor_secondPortion button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+
+.code_editor .code_editor_thirdPortion {
+    position: absolute;
+    top: 670px;
+    left: 320px;
+    height: 160px;
+    border: 1px solid #282A35;
+    border-radius: 8px;
+}
+
+.code_editor_thirdPortion .Frontend_button {
+    color: white;
+    background-color: #04AA6D;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 34px;
+    display: block;
+
+}
+
+.code_editor_thirdPortion .Backend_button {
+    color: black;
+    background-color: #f8eb8a;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.W3Schools_Spaces {
+    color: white;
+    background-color: #282A35 !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 800px;
+}
+
+.W3Schools_Spaces .W3Schools_Spaces_firstPortion {
+    text-align: center;
+
+}
+
+.W3Schools_Spaces .W3Schools_Spaces_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20;
+
+}
+
+.W3Schools_Spaces .W3Schools_Spaces_firstPortion h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+
+.W3Schools_Spaces .W3Schools_Spaces_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 270px;
+    color: white;
+    background-color: #04AA6D;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 730px;
+    left: 610px;
+}
+
+.W3Schools_Spaces .W3Schools_Spaces_thirdPortion a:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.My_Learning {
+    color: black;
+    background-color: #D9EEE1 !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 860px;
+}
+
+.My_Learning .My_Learning_firstPortion {
+    text-align: center;
+
+}
+
+.My_Learning .My_Learning_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20;
+
+}
+
+.My_Learning .My_Learning_firstPortion h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.My_Learning .My_Learning_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 270px;
+    color: white;
+    background-color: #04AA6D;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 770px;
+    left: 610px;
+}
+
+.My_Learning .My_Learning_thirdPortion a:hover {
+    color: white;
+    background-color: #059862;
+}
+
+
+.Plus_User {
+    color: white;
+    background-color: #282A35 !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 600px;
+}
+
+.Plus_User .Plus_User_firstPortion {
+    text-align: center;
+
+}
+
+.Plus_User .Plus_User_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.Plus_User .Plus_User_firstPortion h3 {
+
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFC0C7;
+
+}
+
+.Plus_User .Plus_User_secondPortion {
+    color: white;
+    position: relative;
+    width: 60%;
+    top: 0px;
+    left: 366px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.list_items {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 223px;
+}
+
+.list_items li {
+    display: flex;
+    list-style: none;
+}
+
+.list_items .item1 h3 {
+    padding-left: 10px;
+}
+
+.list_items .item2 h3 {
+    padding-left: 10px;
+}
+
+.list_items .item3 h3 {
+    padding-left: 10px;
+}
+
+.list_items .item4 h3 {
+    padding-left: 10px;
+}
+
+.list_items .check {
+    padding-top: 20px;
+}
+
+.Plus_User .Plus_User_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 270px;
+    color: white;
+    background-color: #04AA6D;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 512px;
+    left: 586px;
+}
+
+.Plus_User .Plus_User_thirdPortion a:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.Color_picker {
+    background-color: #F3ECEA;
+    color: #000;
+
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 430px;
+}
+
+.Color_picker .Color_picker_firstPortion {
+    text-align: center;
+
+}
+
+.Color_picker .Color_picker_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.Color_picker .Color_picker_firstPortion h3 {
+
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.Code_Game {
+    color: #000;
+    background-color: #96D4D4 !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 580px;
+}
+
+.Code_Game .Code_Game_firstPortion {
+    text-align: center;
+
+}
+
+.Code_Game .Code_Game_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.Code_Game .Code_Game_firstPortion h3 {
+
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.Code_Game .Code_Game_thirdtPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 200px;
+    color: white;
+    background-color: #282A35;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 470px;
+    left: 625px;
+}
+
+.Code_Game .Code_Game_thirdtPortion a:hover {
+    color: white;
+    background-color: black;
+}
+
+.exercises_quizes {
+    color: white;
+    background-color: #282A35 !important;
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 540px;
+}
+
+
+.exercises_quizes .exercises_quizes_firstPortion {
+    text-align: center;
+
+}
+
+.exercises_quizes .exercises_quizes_firstPortion h1 {
+    font-size: 43px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.exercises_quizes .exercises_quizes_firstPortion h3 {
+
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.exercises_quizes .exercises_quizes_secondPortion {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+}
+
+.exercises_quizes .exercises_quizes_secondPortion_exercise,
+.exercises_quizes_secondPortion_quizes {
+    border-radius: 5px;
+    color: black;
+    padding: 47px;
+    width: 33%;
+    margin: 44px;
+    text-align: center;
+
+}
+
+.exercises_quizes .exercises_quizes_secondPortion h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#exercises_quizes_secondPortion_exercise {
+    background-color: #FFC0C7;
+}
+
+#exercises_quizes_secondPortion_quizes {
+    background-color: #FFF4A3;
+}
+
+.Web_Templates {
+    color: black;
+    background-color: #E7E9EB !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 850px;
+}
+
+.Web_Templates .Web_Templates_firstPortion {
+    text-align: center;
+
+}
+
+.Web_Templates .Web_Templates_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20;
+
+}
+
+.Web_Templates .Web_Templates_firstPortion h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+
+.Web_Templates .Web_Templates_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 370px;
+    color: white;
+    background-color: #282A35;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 750px;
+    left: 569px;
+}
+
+.Web_Templates .Web_Templates_thirdPortion a:hover {
+    color: white;
+    background-color: black;
+}
+
+.Kickstart {
+    color: white;
+    background-color: #282A35 !important;
+    padding-top: 38px;
+    position: relative;
+    top: 0;
+    height: 450px;
+}
+
+.Kickstart .Kickstart_firstPortion {}
+
+.Kickstart .Kickstart_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    text-align: left;
+    padding-left: 50px;
+
+
+}
+
+.Kickstart .Kickstart_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 45px;
+    padding-top: 14px;
+    padding-left: 57px;
+    height: 35px;
+    width: 158px;
+    color: white;
+    background-color: #04AA6D;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.Kickstart .Kickstart_thirdPortion a:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.Code_snippets {
+    color: black;
+    background-color: #E7E9EB !important;
+    padding-top: 38px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 850px;
+}
+
+.Code_snippets .Code_snippets_firstPortion {
+    text-align: center;
+
+}
+
+.Code_snippets .Code_snippets_firstPortion h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20;
+
+}
+
+.Code_snippets .Code_snippets_firstPortion {
+    font-size: 18px;
+    font-weight: 700px;
+
+
+}
+
+.Code_snippets .Code_snippets_secondPortion {
+    position: absolute;
+    top: 325px;
+    left: 260px;
+    /* border: 1px solid #282A35; */
+    border-radius: 8px;
+}
+
+.Code_snippets .Code_snippets_secondPortion .color_text {
+    background-color: white;
+    width: 98%;
+    display: flex;
+    gap: 150px;
+    padding: 10px;
+
+}
+
+.Code_snippets .Code_snippets_secondPortion .red_color {
+    color: red;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.Code_snippets .Code_snippets_secondPortion .yellow_color {
+    color: yellow;
+    background-color: yellow;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.Code_snippets .Code_snippets_secondPortion .green_color {
+    color: green;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.Code_snippets .Code_snippets_secondPortion input {
+    width: 606px;
+    border: 1px solid none;
+}
+
+.Code_snippets .Code_snippets_fourthPortion {
+    background-color: #282A35;
+    height: 80px;
+    width: 49px;
+    position: absolute;
+    top: 716px;
+    left: 729px;
+}
+
+
+.Code_snippets .Code_snippets_thirdPortion a {
+    border-radius: 26px;
+    text-decoration: none;
+    display: block;
+    margin: 22px;
+    padding-top: 12px;
+    height: 35px;
+    width: 370px;
+    color: white;
+    background-color: #282A35;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 770px;
+    left: 550px;
+}
+
+.Code_snippets .Code_snippets_thirdPortion a:hover {
+    color: white;
+    background-color: black;
+}
+
+.footer {
+    background-image: url("Images/background_in_space.webp");
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+.footer_image {
+    position: absolute;
+    top: 249px;
+    right: 2px;
+    height: 500px;
+    width: 600px;
+    background-image: url("Images/lynx_landing.webp");
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center center;
+
+
+}
+
+.footer_container {
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
+.footer_container .footer_container_firstPortion {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 75px;
+    left: 110px;
+}
+
+.footer_container .footer_container_firstPortion div a {
+    color: #FFF4A3;
+    padding: 34px;
+    text-decoration: none;
+}
+
+.footer_container .footer_container_firstPortion div a:hover {
+    color: #f8eb8a;
+    padding: 34px;
+    text-decoration: underline;
+}
+
+.footer_container .footer_container_secondPortion {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 110px;
+
+}
+
+.footer_container .footer_container_secondPortion div {
+    padding: 0px 44px;
+}
+
+
+.footer_container .footer_container_secondPortion div a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.footer_container .footer_container_thirdPortion {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 455px;
+    left: 140px;
+}
+
+.footer_container .footer_container_thirdPortion a {
+    color: white;
+    padding: 24px;
+    text-decoration: none;
+}
+
+.footer_container .footer_container_thirdPortion a:hover {
+    color: #f8eb8a;
+    padding: 24px;
+    text-decoration: underline;
+}
+
+.footer_container .footer_container_fourthPortion {
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 140px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.footer_container .footer_container_fourthPortion a {
+    color: white;
+}
+
+.footer_container .footer_container_fourthPortion a:hover {
+    color: #f8eb8a;
+}
